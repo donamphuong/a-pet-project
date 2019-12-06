@@ -33,11 +33,11 @@ class TimelineRow extends React.Component {
           margin={{top: 'small'}}
           pad={{bottom: 'small'}}
           direction="row"
-          height="4em"
+          height="auto"
           gap="medium"
         >
           {/* Time */}
-          <Box gap="xsmall" margin={{right: 'medium'}}>
+          <Box gap="xsmall" margin={{right: 'medium'}} width="xsmall">
             <Box className="start-time">
               <Text size="xlarge" weight="bold"><Markdown>{this.props.detail.startTime}</Markdown></Text>
             </Box>
@@ -47,18 +47,21 @@ class TimelineRow extends React.Component {
           </Box>
 
           {/* Divider */}
-          <div className="vertical-line" style={{'borderLeft': 'thick solid ' + renderedColour, borderRadius: '2em'}}/>
+          <Box size="xsmall" border={{"color": renderedColour, "size": "0.5em", "side": "left"}} round="2em" />
 
           <Box gap="xsmall" width="medium">
-            <Box className="start-time">
-              <Text color='dark-3'><Markdown>{this.props.detail.speakerName}</Markdown></Text>
-            </Box>
-            <Box className="end-time">
+            <Box>
               <Text><Markdown>{this.props.detail.topic}</Markdown></Text>
+            </Box>
+            <Box>
+              <Text color='dark-3'><Markdown>{this.props.detail.speakerName}</Markdown></Text>
             </Box>
           </Box>
 
-          <Button align='center' icon={<StatusInfo />} onClick={(e) => this.switchCollapsible()}/>
+          {
+            this.props.detail.moreInfo &&
+              <Button align='center' icon={<StatusInfo />} onClick={(e) => this.switchCollapsible()}/>
+          }
 
         </Box>
 

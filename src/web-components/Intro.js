@@ -19,25 +19,23 @@ class Intro extends React.Component {
         overflow="auto"
       >
         <Box gridArea="event" justify="center">
-          <Box>
-            <Heading color="light-1" weight="bold" textAlign="center" margin="small">
-                <Markdown>{t.event.name.first}</Markdown>
-              <br/>
-            </Heading>
-            <Heading color="light-1" textAlign="center" level={2} margin="small">
-                &
-                <br/>
-                {t.event.name.second}
-            </Heading>
+          <Text color="light-1" weight="bold" textAlign="center" margin="small" size="10vh" style={{overflowWrap: 'break-word'}}>
+              <Markdown>{t.event.name.first}</Markdown>
             <br/>
-          </Box>
-
-          <Text weight="bold" size="xlarge" color="neutral-2" textAlign="center">{t.event.date}</Text>
+          </Text>
+          <Text color="light-1" textAlign="center" level={2} margin="small" size="3vh">
+              &
+              <br/>
+              {t.event.name.second}
+          </Text>
           <br/>
-          <Text weight="bold" size="xlarge" color="neutral-2" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
+
+          <Text weight="bold" size="3vh" color="neutral-2" textAlign="center">{t.event.date}</Text>
+          <br/>
+          <Text weight="bold" size="3vh" color="neutral-2" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
         </Box>
 
-        <Box gridArea="speakers" gap="small" direction="row-responsive" align="end" margin={{bottom: 'large'}}>
+        <Box gridArea="speakers" gap="small" direction="row" align="end" margin={{bottom: 'small'}} overflow='auto'>
           {
             t.speakers.map((speaker, index) =>
               <Box key={index}>
