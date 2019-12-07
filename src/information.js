@@ -10,25 +10,25 @@ const t = {
 
   'speakers': [
     {
-      'name': 'John Doe',
-      'image': 'cover.jpg',
-      'description': 'Software Engineer'
+      'name': 'Trương Quốc Hùng',
+      'image': 'ceo.jpg',
+      'description': 'Vinbrain CEO'
     },
     {
-      'name': 'John Doe',
-      'image': 'cover.jpg',
-      'description': 'Software Engineer'
+      'name': 'Trương Quốc Hùng',
+      'image': 'ceo.jpg',
+      'description': 'Vinbrain CEO'
     },
     {
-      'name': 'John Doe',
-      'image': 'cover.jpg',
-      'description': 'Software Engineer'
+      'name': 'Trương Quốc Hùng',
+      'image': 'ceo.jpg',
+      'description': 'Vinbrain CEO'
     },
     {
-      'name': 'John Doe',
-      'image': 'cover.jpg',
-      'description': 'Software Engineer'
-    }
+      'name': 'Trương Quốc Hùng',
+      'image': 'ceo.jpg',
+      'description': 'Vinbrain CEO'
+    },
   ],
 
   'schedulesHeader': '**Your agenda**',
