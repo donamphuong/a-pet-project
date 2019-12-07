@@ -60,8 +60,9 @@ class TimelineRow extends React.Component {
 
           <Button align='center'
             icon={<StatusInfo />}
+            disabled={!this.props.detail.moreInfo}
             onClick={(e) => this.switchCollapsible()}
-            style={{opacity: this.props.detail.moreInfo ? 1 : 0}}/>
+            style={{opacity: this.props.detail.moreInfo ? 1 : 0, pointerEvents: this.props.detail.moreInfo ? 'auto' : 'none'}}/>
 
         </Box>
 
