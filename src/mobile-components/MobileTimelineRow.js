@@ -56,10 +56,10 @@ class MobileTimelineRow extends React.Component {
 
           <Box gap="xsmall" width="xlarge">
             <Box>
-              <Text><Markdown>{this.props.detail.topic}</Markdown></Text>
+              <Text weight="bold"><Markdown>{this.props.detail.topic}</Markdown></Text>
             </Box>
             <Box>
-              <Text color='dark-3'><Markdown>{this.props.detail.speakerName}</Markdown></Text>
+              <Text style={{fontStyle: 'italic'}} color='dark-3'><Markdown>{this.props.detail.speakerName}</Markdown></Text>
             </Box>
           </Box>
 

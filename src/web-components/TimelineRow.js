@@ -51,10 +51,10 @@ class TimelineRow extends React.Component {
 
           <Box gap="xsmall" width="xlarge">
             <Box>
-              <Text><Markdown>{this.props.detail.topic}</Markdown></Text>
+              <Text weight="bold"><Markdown>{this.props.detail.topic}</Markdown></Text>
             </Box>
             <Box>
-              <Text color='dark-3'><Markdown>{this.props.detail.speakerName}</Markdown></Text>
+              <Text color='dark-3' style={{fontStyle: 'italic'}} c><Markdown>{this.props.detail.speakerName}</Markdown></Text>
             </Box>
           </Box>
 
