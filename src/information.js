@@ -9,10 +9,10 @@ const t = {
  },
 
  'partners': [
-   "vinbrain-logo.jpg",
-   "vinbrain-logo.jpg",
-   "vinbrain-logo.jpg",
-   "vinbrain-logo.jpg",
+   "vinbrain-logo",
+   "vinbrain-logo",
+   "vinbrain-logo",
+   "vinbrain-logo",
  ],
 
   'speakers': [

@@ -11,6 +11,10 @@ import SpeakerInfo from './../common/SpeakerInfo.js'
 import t from './../information.js'
 
 class Intro extends React.Component {
+  getImageMobileName(imageName) {
+    return imageName + "-mobile.jpg"
+  }
+
   render() {
     return (
       <Grid
@@ -22,7 +26,7 @@ class Intro extends React.Component {
         <Box gridArea="logos" direction="row" overflow="auto" pad={{vertical: "large"}}>
           {
             t.partners && t.partners.map(logo =>
-              <Image fit="contain" src={logo}/>
+              <Image fit="contain" src={this.getImageMobileName(logo)}/>
             )
           }
         </Box>

@@ -11,17 +11,22 @@ import SpeakerInfo from './../common/SpeakerInfo.js'
 import t from './../information.js'
 
 class MobileIntro extends React.Component {
+  getImageMobileName(imageName) {
+    return imageName + "-mobile.jpg"
+  }
+
   render() {
     return (
       <Grid
         fill
+        rows={["small", "flex", "auto"]}
         areas={[["logos"], ["event"], ["speakers"]]}
         style={{height: 'auto', display: 'block'}}
       >
-      <Box gridArea="logos" direction="row" overflow="auto" pad={{vertical: "large"}}>
+      <Box gridArea="logos" direction="row">
         {
-          t.partners && t.partners.map(logo =>
-            <Image fit="contain" src={logo}/>
+          t.partners && t.partners.map((logo, index) =>
+            <Image key={index} fit="contain" src={this.getImageMobileName(logo)} />
           )
         }
       </Box>
@@ -53,7 +58,7 @@ class MobileIntro extends React.Component {
           <Box gap="small" align="center" margin={{vertical: 'large'}}>
             {
               t.speakers.map((speaker, index) =>
-                <SpeakerInfo speaker={speaker}/>
+                <SpeakerInfo speaker={speaker} key={index}/>
               )
             }
           </Box>
