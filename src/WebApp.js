@@ -4,11 +4,16 @@ import {
  Grid,
  Grommet,
  Video,
+ Layer,
+ Button,
+ Text,
+ Markdown,
  ResponsiveContext,
 } from 'grommet';
 import Timeline from './web-components/Timeline.js'
 import Intro from './web-components/Intro.js'
 import styled from 'styled-components';
+import t from './information.js'
 
 const theme = {
   global: {
@@ -42,6 +47,14 @@ const ScrollableBox = styled(Box)`
 `;
 
 class WebApp extends React.Component {
+  state = {
+    show: true
+  }
+
+  hide() {
+    this.setState({show: false})
+  }
+
   render() {
     return (
       <Grommet theme={theme} full>
@@ -53,6 +66,22 @@ class WebApp extends React.Component {
               areas={[["sidebar", "agenda"]]}
               gap="large"
             >
+              { this.state.show &&
+                <Layer
+                  onEsc={() => this.hide()}
+                  onClickOutside={() => this.hide()}
+                >
+                  <Box pad="large"
+                    background={{
+                      image: "url(sky.png)"
+                    }}
+                    overflow="scroll">
+                    <Text color="light-3" size="large" textAlign="center"><Markdown>{t.event.description}</Markdown></Text>
+                    <br/>
+                    <Button primary label="close" onClick={() => this.hide()} color='white'/>
+                  </Box>
+                </Layer>
+              }
               <Box gridArea="sidebar"
                 pad={{ left: 'large', right: 'large'}}
                 background={{

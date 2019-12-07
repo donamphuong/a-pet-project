@@ -12,7 +12,7 @@ import t from './../information.js'
 
 class Intro extends React.Component {
   getImageMobileName(imageName) {
-    return imageName + "-mobile.jpg"
+    return imageName + ".jpg"
   }
 
   render() {
@@ -30,21 +30,18 @@ class Intro extends React.Component {
             )
           }
         </Box>
-        <Box gridArea="event" justify="center" wrap="true" overflow="auto">
-          <Text full color="#f9ca24" weight="bold" size="6.5vh" textAlign="center" style={{overflowWrap: 'break-word'}}>
-              <Markdown>{t.event.name.first}</Markdown>
-          </Text>
-          <Text color="#f9ca24" textAlign="center" size="2vh" level={2} style={{textTransform: 'uppercase'}}>
-              &
+        <Box gridArea="event" justify="center">
+            <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
+                <Markdown>{t.event.name.first}</Markdown>
               <br/>
-              {t.event.name.second}
-          </Text>
-          <br/>
-
-          <Text weight="bold" size="1.5vh" color="white" textAlign="center"></Text>
-          <br/>
-          <Text weight="bold" size="1.5vh" color="white" textAlign="center"></Text>
+            </Text>
+            <Text color="#f9ca24" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
+                &
+                <br/>
+                {t.event.name.second}
+            </Text>
         </Box>
+
 
         <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium">
           <Box>

@@ -31,7 +31,6 @@ class MobileIntro extends React.Component {
         }
       </Box>
         <Box gridArea="event" justify="center">
-          <Box>
             <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
               <br/>
@@ -41,12 +40,6 @@ class MobileIntro extends React.Component {
                 <br/>
                 {t.event.name.second}
             </Text>
-            <br/>
-          </Box>
-
-          <Text weight="bold" size="2vh" color="white" textAlign="center"></Text>
-          <br/>
-          <Text weight="bold" size="2vh" color="white" textAlign="center"></Text>
         </Box>
 
         <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium">
