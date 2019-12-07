@@ -1,33 +1,44 @@
 const t = {
   'event': {
    'name': {
-     'first': '**MOU SIGNING CEREMONY**',
+     'first': '**SIGNING CEREMONY**',
      'second': 'Roundtable – AI + IoT for Medicine and ecosystem strategic partnership'
    },
    'date': 'Thursday, 12th December 2019',
    'location': 'Phòng họp tầng 7, Bệnh viện Đa khoa Quốc tế Vinmec, Khu đô thị Times City, số 458 Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội. '
  },
 
+ 'partners': [
+   "vinbrain-logo.jpg",
+   "vinbrain-logo.jpg",
+   "vinbrain-logo.jpg",
+   "vinbrain-logo.jpg",
+ ],
+
   'speakers': [
     {
-      'name': 'Trương Quốc Hùng',
-      'image': 'ceo.jpg',
-      'description': 'Vinbrain CEO'
+      'name': 'Trương Lý Hoàng Phi',
+      'image': 'vincity.jpg',
+      'description': 'Moderator',
+      'bio': ''
     },
     {
       'name': 'Trương Quốc Hùng',
       'image': 'ceo.jpg',
-      'description': 'Vinbrain CEO'
+      'description': 'Vinbrain CEO',
+      'bio': ''
     },
     {
-      'name': 'Trương Quốc Hùng',
-      'image': 'ceo.jpg',
-      'description': 'Vinbrain CEO'
+      'name': 'Prof. PhD. Vũ Ngọc Tâm',
+      'image': 'earable.png',
+      'description': 'Earable',
+      'bio': ''
     },
     {
-      'name': 'Trương Quốc Hùng',
-      'image': 'ceo.jpg',
-      'description': 'Vinbrain CEO'
+      'name': 'GE',
+      'image': 'giphy.gif',
+      'description': 'Anonymous',
+      'bio': ''
     },
   ],
 

@@ -39,7 +39,12 @@ class MobileApp extends React.Component {
       <Grommet theme={theme} full>
         <ResponsiveContext.Consumer>
           {size => (
-            <Box
+            <Box animation={{
+                "type": "slideRight",
+                "delay": 0,
+                "duration": 1000,
+                "size": "xsmall"
+              }}
               gap="large">
               <Box direction="row-responsive" gridArea="sidebar"
                 pad={{ horizontal: 'large', top: 'large'}}
@@ -51,8 +56,8 @@ class MobileApp extends React.Component {
               </Box>
 
               <Box gridArea="agenda" direction="row-responsive"
-                pad={{ left: 'xlarge', right: 'large', top: 'medium' }}
-                margin={{ right: 'large'}}
+                pad={{ left: 'large', top: 'medium' }}
+                margin={{ right: 'medium'}}
                 >
                 <MobileTimeline/>
               </Box>

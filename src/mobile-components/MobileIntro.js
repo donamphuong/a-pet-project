@@ -7,6 +7,7 @@ import {
  Markdown,
  Image
 } from 'grommet';
+import SpeakerInfo from './../common/SpeakerInfo.js'
 import t from './../information.js'
 
 class MobileIntro extends React.Component {
@@ -14,40 +15,50 @@ class MobileIntro extends React.Component {
     return (
       <Grid
         fill
-        rows={["3/4", "1/4"]}
-        areas={[["event"], ["speakers"]]}
+        areas={[["logos"], ["event"], ["speakers"]]}
         style={{height: 'auto', display: 'block'}}
       >
+      <Box gridArea="logos" direction="row" overflow="auto" pad={{vertical: "large"}}>
+        {
+          t.partners && t.partners.map(logo =>
+            <Image fit="contain" src={logo}/>
+          )
+        }
+      </Box>
         <Box gridArea="event" justify="center">
           <Box>
-            <Heading color="light-1" weight="bold" textAlign="center" margin="small">
+            <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
               <br/>
-            </Heading>
-            <Heading color="light-1" textAlign="center" level={2} margin="small">
+            </Text>
+            <Text color="#f9ca24" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
                 &
                 <br/>
                 {t.event.name.second}
-            </Heading>
+            </Text>
             <br/>
           </Box>
 
-          <Text weight="bold" size="large" color="neutral-2" textAlign="center">{t.event.date}</Text>
+          <Text weight="bold" size="2vh" color="white" textAlign="center"></Text>
           <br/>
-          <Text weight="bold" size="large" color="neutral-2" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
+          <Text weight="bold" size="2vh" color="white" textAlign="center"></Text>
         </Box>
 
-        <Box gridArea="speakers" gap="small" align="center" margin={{vertical: 'large'}}>
-          {
-            t.speakers.map((speaker, index) =>
-              <Box key={index}>
-                <Image src={speaker.image}/>
-                <Text color="white">{speaker.name}</Text>
-                <Text size="small" color="white">{speaker.description}</Text>
-              </Box>
-            )
-          }
+        <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium">
+          <Box>
+            <Text weight="bold" size="2vh" color="#130f40" textAlign="center">{t.event.date}</Text>
+            <br/>
+            <Text weight="bold" size="2vh" color="#130f40" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
+          </Box>
+          <Box gap="small" align="center" margin={{vertical: 'large'}}>
+            {
+              t.speakers.map((speaker, index) =>
+                <SpeakerInfo speaker={speaker}/>
+              )
+            }
+          </Box>
         </Box>
+
 
       </Grid>
     )

@@ -3,6 +3,7 @@ import {
  Box,
  Markdown,
  InfiniteScroll,
+ Heading,
  Text
 } from 'grommet';
 import TimelineSession from './TimelineSession.js'
@@ -16,7 +17,7 @@ class Timeline extends React.Component {
           margin={{bottom: 'small' }}
           direction="row"
         >
-          <h2><Markdown>{t.schedulesHeader}</Markdown></h2>
+          <Heading level={3} margin={{top: 'large'}} style={{textTransform: 'uppercase'}}><Markdown>{t.schedulesHeader}</Markdown></Heading>
         </Box>
         {
           t.schedules.map((schedule, index) =>

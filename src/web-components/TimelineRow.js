@@ -49,7 +49,7 @@ class TimelineRow extends React.Component {
           {/* Divider */}
           <Box size="xsmall" border={{"color": renderedColour, "size": "0.5em", "side": "left"}} round="2em" />
 
-          <Box gap="xsmall" width="medium">
+          <Box gap="xsmall" width="xlarge">
             <Box>
               <Text><Markdown>{this.props.detail.topic}</Markdown></Text>
             </Box>

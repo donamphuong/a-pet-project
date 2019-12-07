@@ -3,6 +3,7 @@ import {
  Box,
  Grid,
  Grommet,
+ Video,
  ResponsiveContext,
 } from 'grommet';
 import Timeline from './web-components/Timeline.js'
@@ -62,8 +63,8 @@ class WebApp extends React.Component {
               </Box>
 
               <ScrollableBox gridArea="agenda"
-                pad={{ left: 'xlarge', right: 'large', top: 'medium' }}
-                margin={{ right: 'large'}}
+                pad={{ left: 'small', top: 'medium' }}
+                margin={{ right: 'medium'}}
                 >
                 <Timeline/>
               </ScrollableBox>

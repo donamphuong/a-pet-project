@@ -3,6 +3,7 @@ import {
  Box,
  Markdown,
  InfiniteScroll,
+ Heading,
  Text
 } from 'grommet';
 import MobileTimelineSession from './MobileTimelineSession.js'
@@ -17,7 +18,7 @@ class MobileTimeline extends React.Component {
           direction="row-responsive"
           alignContent="center"
         >
-          <h2><Markdown>{t.schedulesHeader}</Markdown></h2>
+          <Heading level={3} margin={{top: 'large'}} style={{textTransform: 'uppercase'}}><Markdown>{t.schedulesHeader}</Markdown></Heading>
         </Box>
         {
           t.schedules.map((schedule, index) =>
