@@ -68,6 +68,7 @@ class WebApp extends React.Component {
             >
               { this.state.show &&
                 <Layer
+                  animation="fadeIn"
                   onEsc={() => this.hide()}
                   onClickOutside={() => this.hide()}
                 >

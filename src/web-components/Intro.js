@@ -23,14 +23,14 @@ class Intro extends React.Component {
         areas={[["logos"], ["event"], ["speakers"]]}
         overflow="auto"
       >
-        <Box gridArea="logos" direction="row" overflow="auto" pad={{vertical: "large"}}>
+        <Box gridArea="logos" direction="row" overflow="auto" pad={{vertical: "large"}} animation="slideRight">
           {
             t.partners && t.partners.map(logo =>
               <Image fit="contain" src={this.getImageMobileName(logo)}/>
             )
           }
         </Box>
-        <Box gridArea="event" justify="center">
+        <Box gridArea="event" justify="center" animation="slideRight">
             <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
               <br/>
@@ -43,13 +43,13 @@ class Intro extends React.Component {
         </Box>
 
 
-        <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium">
+        <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium" animation="slideRight">
           <Box>
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center">{t.event.date}</Text>
             <br/>
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
           </Box>
-          <Box gap="small" direction="row" >
+          <Box gap="small" direction="row">
             {
               t.speakers.map((speaker, index) =>
                 <SpeakerInfo speaker={speaker}/>

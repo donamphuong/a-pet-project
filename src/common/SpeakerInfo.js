@@ -8,6 +8,7 @@ import {
  Markdown,
  Heading
 } from 'grommet';
+import ZoomOnHover from './../common/ZoomOnHover.js'
 
 class SpeakerInfo extends React.Component {
   state = {
@@ -21,9 +22,15 @@ class SpeakerInfo extends React.Component {
   render() {
     return (
       <Box>
-        <Box>
-          <Image src={this.props.speaker.image} onClick={() => this.setShow(true)}/>
-        </Box>
+        <ZoomOnHover
+          onClick={() => this.setShow(true)}
+          pose={this.state.hovering ? "hovered" : "idle"}
+          onMouseEnter={() => this.setState({ hovering: true })}
+          onMouseLeave={() => this.setState({ hovering: false })}
+        >
+
+              <Image src={this.props.speaker.image}/>
+          </ZoomOnHover>
         <Text size="small" color="white">{this.props.speaker.name}</Text>
         <Text size="xsmall" color="white">{this.props.speaker.description}</Text>
 
