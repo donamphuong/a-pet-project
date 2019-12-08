@@ -38,6 +38,7 @@ class SpeakerInfo extends React.Component {
           <Layer
             onEsc={() => this.setShow(false)}
             onClickOutside={() => this.setShow(false)}
+            onClick={() => this.setShow(false)}
           >
             <Box pad={{horizontal: "medium", bottom: "medium"}}>
               <Box border={{

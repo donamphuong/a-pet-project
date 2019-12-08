@@ -38,7 +38,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
     {
       'name': 'Luân Võ',
       'image': 'anon.jpg',
-      'description': 'Enterprise Digital Solution Manager',
+      'description': 'Enterprise Digital Solution Manager - GE',
       'bio': ''
     },
     {
@@ -113,8 +113,8 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
         {
           'startTime': '10:30',
           'endTime': '**11:00**',
-          'speakerName': 'Luân Võ, Enterprise Digital Solution Manager',
-          'topic': 'Topic 2: Medical Device',
+          'speakerName': 'Luân Võ, Enterprise Digital Solution Manager, GE',
+          'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': 'To do'
         },
         {
