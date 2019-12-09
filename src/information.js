@@ -86,7 +86,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'endTime': '**09:45**',
               'speakerName': 'VinBrain - CEO Trương Quốc Hùng \n\n \
 Natioanl Lung Hospital - Assoc. Nguyễn Viết Nhung \n\n \
-VinMec Healthcare System - Professor. TTND Đỗ Tất Cường \n\n \
+VinMec Healthcare System - Professor. Đỗ Tất Cường \n\n \
 Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
               'topic': 'MOU Signing Ceremony'
             },
