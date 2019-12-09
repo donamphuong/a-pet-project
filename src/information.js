@@ -18,22 +18,21 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
  ],
 
   'speakers': [
+     {
+      'name': 'Assoc. Nguyễn Viết Nhung',
+      'image': 'lung-hospital.jpg',
+      'description': 'National Lung Hospital',
+      'bio': ''
+    {
+      'name': 'Dr. Tam Vu',
+      'image': 'earable.png',
+      'description': 'Earable’s Founder & CEO',
+      'bio': ''
+    },
     {
       'name': 'Trương Lý Hoàng Phi',
       'image': 'vincity.jpg',
       'description': 'Vintech City CEO',
-      'bio': ''
-    },
-    {
-      'name': 'Trương Quốc Hùng',
-      'image': 'ceo.jpg',
-      'description': 'Vinbrain CEO',
-      'bio': ''
-    },
-    {
-      'name': 'Prof. PhD. Vũ Ngọc Tâm',
-      'image': 'earable.png',
-      'description': 'Earable',
       'bio': ''
     },
     {
@@ -43,11 +42,11 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
       'bio': ''
     },
     {
-      'name': 'Prof. PhD. Nguyễn Viết Nhung',
-      'image': 'lung-hospital.jpg',
-      'description': 'National Lung Hospital',
+      'name': 'Trương Quốc Hùng',
+      'image': 'ceo.jpg',
+      'description': 'Vinbrain CEO',
       'bio': ''
-    }
+    },
   ],
 
   'schedulesHeader': '**Agenda** \n\n **In Progress**',
