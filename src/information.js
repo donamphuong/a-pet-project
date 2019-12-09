@@ -10,10 +10,11 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
  },
 
  'partners': [
+   "logo-benh-vien-phoi-trung-uong_270x180_291354910",
+   "earable_logo",
    "vinbrain-logo",
-   "vinbrain-logo",
-   "vinbrain-logo",
-   "vinbrain-logo",
+   "vintechcity",
+   "ge-health-care",
  ],
 
   'speakers': [
@@ -37,7 +38,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
     },
     {
       'name': 'Luân Võ',
-      'image': 'anon.jpg',
+      'image': 'ge.jpg',
       'description': 'Enterprise Digital Solution Manager - GE',
       'bio': ''
     },
