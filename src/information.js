@@ -49,7 +49,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
     }
   ],
 
-  'schedulesHeader': '**Your agenda**',
+  'schedulesHeader': '**Agenda** \n\n **In Progress**',
   'schedules': [
       {
           'sessionName': 'Session 1',
@@ -69,19 +69,19 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
             },
             {
               'startTime': '08:30',
-              'endTime': '**09:15**',
+              'endTime': '**09:00**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
               'topic': 'Opening Speech & Introduction',
               'moreInfo': 'Todo'
             },
             {
-              'startTime': '09:15',
-              'endTime': '**09:30**',
-              'speakerName': 'CEO Trương Quốc Hùng, Đại diện Phổi TW, Đại diện VinMec, Đại diện BV Y HN - PGS.TS. Nguyễn Lân Hiếu',
+              'startTime': '09:00',
+              'endTime': '**09:20**',
+              'speakerName': 'Dr. Ngô Văn Đoan - Head of Imaging Department',
               'topic': 'Summarizing and evaluating the implementation of labeling Chest X-ray images at Vinmec'
             },
             {
-              'startTime': '09:30',
+              'startTime': '09:20',
               'endTime': '**09:45**',
               'speakerName': 'MOU Signing Ceremony',
               'topic': 'Summarizing and evaluating the implementation of labeling Chest X-ray images at Vinmec'
@@ -106,29 +106,29 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
         {
           'startTime': '10:00',
           'endTime': '**10:30**',
-          'speakerName': 'Prof. PhD. Tâm Vũ, Earable',
-          'topic': 'Topic 1: Earable - Wearable s',
+          'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
+          'topic': 'Topic 1: Healthcare in Vietnam: opportunities and requirements',
           'moreInfo': 'To do'
         },
         {
           'startTime': '10:30',
           'endTime': '**11:00**',
-          'speakerName': 'Luân Võ, Enterprise Digital Solution Manager, GE',
-          'topic': 'Edison AI ecosystem of GE Healthcare',
+          'speakerName': 'PhD. Vũ Ngọc Tâm - Earable',
+          'topic': 'IoT applied for medicine',
           'moreInfo': 'To do'
         },
         {
           'startTime': '11:00',
           'endTime': '**11:30**',
-          'speakerName': 'Prof. Dr. Nguyễn Viết Nhung, National Lung Hospital',
-          'topic': 'Topic 3: Medical Projects',
+          'speakerName': 'Luân Võ - Enterprise Digital Solution Manager, GE',
+          'topic': 'Topic 3: Edison AI ecosystem of GE Healthcare',
           'moreInfo': 'To do'
         },
         {
           'startTime': '11:30',
           'endTime': '**12:00**',
-          'speakerName': 'Prof. Tâm Vũ Earable, GE (Y Tế), CEO Trương Quốc Hùng \n\nModerator: Ms. Trương Lý Hoàng Phi',
-          'topic': 'Panel discussion: AI & IoT for Medicine and ecosystem strategic partnership'
+          'speakerName': 'Assoc Nguyễn Viết Nhung, CEO Trương Quốc Hùng, PhD. Tâm Vũ Earable, Luân Võ GE\n\nModerator: Ms. Trương Lý Hoàng Phi',
+          'topic': 'Panel discussion: AI, IoT and devices for Medicine'
         },
         {
           'startTime': '12:00',
