@@ -140,7 +140,7 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
         },
         {
           'startTime': '12:15',
-          'endTime': '**12:30**',
+          'endTime': '**13:30**',
           'speakerName': '',
           'topic': 'Networking Luncheon'
         }
