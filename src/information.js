@@ -69,7 +69,8 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'startTime': '08:30',
               'endTime': '**09:00**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
-              'topic': 'Opening Speech & Introduction',
+              'topic': 'Opening Speech & Introduction' \n\n \
+              "AI impacts and challenges in infusing AI to radiology diagnostics”
               'moreInfo': ''
             },
             {
