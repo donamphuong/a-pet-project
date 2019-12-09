@@ -70,7 +70,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'endTime': '**09:00**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
               'topic': 'Opening Speech & Introduction',
-              'moreInfo': 'Todo'
+              'moreInfo': ''
             },
             {
               'startTime': '09:00',
@@ -109,21 +109,21 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
           'endTime': '**10:15**',
           'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
           'topic': 'Healthcare in Vietnam: opportunities and requirements',
-          'moreInfo': 'To do'
+          'moreInfo': ''
         },
         {
           'startTime': '10:15',
           'endTime': '**10:30**',
           'speakerName': 'PhD. Vũ Ngọc Tâm - Earable',
           'topic': 'Novel AI-enabled Wearable and Mobile Systems for Telehealth',
-          'moreInfo': 'To do'
+          'moreInfo': ''
         },
         {
           'startTime': '10:30',
           'endTime': '**10:45**',
           'speakerName': 'Mr. Luân Võ - Enterprise Digital Solution Manager, GE',
           'topic': 'Edison AI ecosystem of GE Healthcare',
-          'moreInfo': 'To do'
+          'moreInfo': ''
         },
         {
           'startTime': '10:45',
@@ -136,7 +136,7 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
           'endTime': '**12:15**',
           'speakerName': 'MC',
           'topic': 'Closing Ceremony',
-          'moreInfo': 'To do'
+          'moreInfo': ''
         },
         {
           'startTime': '12:15',
