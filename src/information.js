@@ -23,6 +23,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
       'image': 'lung-hospital.jpg',
       'description': 'National Lung Hospital',
       'bio': ''
+    },
     {
       'name': 'Dr. Tam Vu',
       'image': 'earable.png',
