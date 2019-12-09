@@ -111,7 +111,7 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
           'startTime': '10:00',
           'endTime': '**10:30**',
           'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
-          'topic': 'Topic 1: Healthcare in Vietnam: opportunities and requirements',
+          'topic': 'Healthcare in Vietnam: opportunities and requirements',
           'moreInfo': 'To do'
         },
         {
@@ -125,7 +125,7 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
           'startTime': '11:00',
           'endTime': '**11:30**',
           'speakerName': 'Luân Võ - Enterprise Digital Solution Manager, GE',
-          'topic': 'Topic 3: Edison AI ecosystem of GE Healthcare',
+          'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': 'To do'
         },
         {
