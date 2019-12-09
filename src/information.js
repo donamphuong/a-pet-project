@@ -141,7 +141,7 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
         {
           'startTime': '12:15',
           'endTime': '**13:30**',
-          'speakerName': '',
+          'speakerName': 'Almaz Restaurant - 3rd floor - VinMec Clinical Building',
           'topic': 'Networking Luncheon'
         }
       ]
