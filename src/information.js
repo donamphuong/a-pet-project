@@ -71,7 +71,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'startTime': '08:30',
               'endTime': '**09:15**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
-              'topic': 'Opening Speech About VinBrain & VinBrain product',
+              'topic': 'Opening Speech & Introduction',
               'moreInfo': 'Todo'
             },
             {
