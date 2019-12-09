@@ -6,7 +6,7 @@ const t = {
    },
    'description': 'Made in Vietnam”, a word-class high-tech AI for medicine product to improve life is a unique journey that most Vietnamese people dream of. With Vingroup’s strong support, VinBrain AI Doctor Assistant will soon be released to all hospitals for free in Vietnam in 2020. This is the journey where VinBrain also needs YOUR \
 collaboration and support. Today, 12/12/2019 is the day to kick-off this journey – Let’s work together to make a real difference!',
-   'location': 'Phòng họp tầng 7, Bệnh viện Đa khoa Quốc tế Vinmec, Khu đô thị Times City, số 458 Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội. '
+   'location': ' 7th Floor, Vinmec Clinical Building, Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội City. '
  },
 
  'partners': [
