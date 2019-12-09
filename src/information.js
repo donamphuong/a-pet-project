@@ -84,8 +84,11 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
             {
               'startTime': '09:20',
               'endTime': '**09:45**',
-              'speakerName': 'MOU Signing Ceremony',
-              'topic': 'Summarizing and evaluating the implementation of labeling Chest X-ray images at Vinmec'
+              'speakerName': 'VinBrain - CEO Trương Quốc Hùng \n\n \
+National Lung Hospital - Assoc. Nguyễn Viết Nhung \n\n \
+VinMec Healthcare System - Professor. Đỗ Tất Cường \n\n \
+Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
+              'topic': 'MOU Signing Ceremony'
             },
 
           ]
@@ -108,7 +111,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
           'startTime': '10:00',
           'endTime': '**10:30**',
           'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
-          'topic': 'Topic 1: Healthcare in Vietnam: opportunities and requirements',
+          'topic': 'Healthcare in Vietnam: opportunities and requirements',
           'moreInfo': 'To do'
         },
         {
@@ -121,14 +124,14 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
         {
           'startTime': '11:00',
           'endTime': '**11:30**',
-          'speakerName': 'Luân Võ - Enterprise Digital Solution Manager, GE',
-          'topic': 'Topic 3: Edison AI ecosystem of GE Healthcare',
+          'speakerName': 'Mr. Luân Võ - Enterprise Digital Solution Manager, GE',
+          'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': 'To do'
         },
         {
           'startTime': '11:30',
           'endTime': '**12:00**',
-          'speakerName': 'Assoc Nguyễn Viết Nhung, CEO Trương Quốc Hùng, PhD. Tâm Vũ Earable, Luân Võ GE\n\nModerator: Ms. Trương Lý Hoàng Phi',
+          'speakerName': 'Assoc Nguyễn Viết Nhung, CEO Trương Quốc Hùng, PhD. Tâm Vũ Earable, Mr. Luân Võ GE\n\nModerator: Ms. Trương Lý Hoàng Phi',
           'topic': 'Panel discussion: AI, IoT and devices for Medicine'
         },
         {
