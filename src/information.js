@@ -10,11 +10,8 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
  },
 
  'partners': [
-   "logo-benh-vien-phoi-trung-uong_270x180_291354910",
-   "earable_logo",
    "vinbrain-logo",
-   "vintechcity",
-   "ge-health-care",
+   
  ],
 
   'speakers': [
@@ -31,19 +28,19 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
       'bio': ''
     },
     {
-      'name': 'Trương Lý Hoàng Phi',
+      'name': 'Ms. Trương Lý Hoàng Phi',
       'image': 'vincity.jpg',
       'description': 'Vintech City CEO',
       'bio': ''
     },
     {
-      'name': 'Luân Võ',
+      'name': 'Mr. Luân Võ',
       'image': 'ge.jpg',
       'description': 'Enterprise Digital Solution Manager - GE',
       'bio': ''
     },
     {
-      'name': 'Trương Quốc Hùng',
+      'name': 'Mr. Trương Quốc Hùng',
       'image': 'ceo.jpg',
       'description': 'Vinbrain CEO',
       'bio': ''
@@ -109,27 +106,27 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
       'workshops': [
         {
           'startTime': '10:00',
-          'endTime': '**10:30**',
+          'endTime': '**10:15**',
           'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
           'topic': 'Healthcare in Vietnam: opportunities and requirements',
           'moreInfo': 'To do'
         },
         {
-          'startTime': '10:30',
-          'endTime': '**11:00**',
+          'startTime': '10:15',
+          'endTime': '**10:30**',
           'speakerName': 'PhD. Vũ Ngọc Tâm - Earable',
-          'topic': 'IoT applied for medicine',
+          'topic': 'Novel AI-enabled Wearable and Mobile Systems for Telehealth',
           'moreInfo': 'To do'
         },
         {
-          'startTime': '11:00',
-          'endTime': '**11:30**',
+          'startTime': '10:30',
+          'endTime': '**10:45**',
           'speakerName': 'Mr. Luân Võ - Enterprise Digital Solution Manager, GE',
           'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': 'To do'
         },
         {
-          'startTime': '11:30',
+          'startTime': '10:45',
           'endTime': '**12:00**',
           'speakerName': 'Assoc Nguyễn Viết Nhung, CEO Trương Quốc Hùng, PhD. Tâm Vũ Earable, Mr. Luân Võ GE\n\nModerator: Ms. Trương Lý Hoàng Phi',
           'topic': 'Panel discussion: AI, IoT and devices for Medicine'
