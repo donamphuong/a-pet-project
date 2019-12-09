@@ -26,7 +26,7 @@ class MobileIntro extends React.Component {
       <Box gridArea="logos" direction="row">
         {
           t.partners && t.partners.map((logo, index) =>
-            <Image key={index} fit="contain" src={this.getImageMobileName(logo)} />
+            <Image style={{height: '200px'}} key={index} fit="contain" src={this.getImageMobileName(logo)} />
           )
         }
       </Box>
