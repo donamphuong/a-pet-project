@@ -69,7 +69,7 @@ His specialties include engineering and business operations leadership; strategy
     }
   ],
 
-  'schedulesHeader': '**Agenda** \n\n **In Progress**',
+  'schedulesHeader': '**Agenda**',
   'schedules': [
       {
           'sessionName': 'Session 1',
