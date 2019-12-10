@@ -3,7 +3,6 @@ import {
  Box,
  Grid,
  Text,
- Heading,
  Markdown,
  Image
 } from 'grommet';
@@ -31,11 +30,11 @@ class MobileIntro extends React.Component {
         }
       </Box>
         <Box gridArea="event" justify="center">
-            <Text color="#130f40" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
+            <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
               <br/>
             </Text>
-            <Text color="#130f40" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
+            <Text color="#f9ca24" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
                 &
                 <br/>
                 {t.event.name.second}
@@ -43,7 +42,7 @@ class MobileIntro extends React.Component {
         </Box>
 
         <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium">
-          <Box>
+          <Box width="100%" align="center">
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center">{t.event.date}</Text>
             <br/>
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>

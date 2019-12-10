@@ -3,7 +3,6 @@ import {
  Box,
  Grid,
  Grommet,
- Video,
  Layer,
  Button,
  Text,

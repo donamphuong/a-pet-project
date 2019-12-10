@@ -7,7 +7,8 @@ const t = {
    'date': '12/12/2019',
    'description': 'Made in Vietnam”, a word-class high-tech AI for medicine product to improve life is a unique journey that most Vietnamese people dream of. With Vingroup’s strong support, VinBrain AI Doctor Assistant will soon be released to all hospitals for free in Vietnam in 2020. This is the journey where VinBrain also needs YOUR \
 collaboration and support. Today, 12/12/2019 is the day to kick-off this journey – Let’s work together to make a real difference!',
-   'location': ' 7th Floor, Vinmec Clinical Building, Times City, 458 Minh Khai, Hai Ba Trung, Ha Noi City. '
+   'location': ' 7th Floor, Vinmec Clinical Building\n\n\
+   Times City, 458 Minh Khai, Hai Ba Trung, Ha Noi'
  },
 
  'partners': [
@@ -19,7 +20,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
      {
       'name': 'Assoc. Prof. Dr. Nguyễn Viết Nhung',
       'image': 'lung-hospital.jpg',
-      'description': 'Director of National Lung Hospital Director',
+      'description': 'Director of National Lung Hospital',
       'bio': '',
       'role': 'Presenter'
     },
@@ -48,7 +49,7 @@ His specialties include engineering and business operations leadership; strategy
       'role': 'Moderator'
     },
     {
-      'name': 'Mr. Luân Võ',
+      'name': 'Mr. Võ Luân',
       'image': 'ge.jpg',
       'description': 'GE Healthcare Enterprise Digital Solution Manager',
       'bio': '\n\n \n\n Luan Vo was born in Ho Chi Minh in 1982. He received his M.D. in Pham Ngoc Thach Medical University in 2006. From 2007 he worked at People’s hospital 115, one of the largest hospital \
@@ -60,10 +61,10 @@ His specialties include engineering and business operations leadership; strategy
       'role': 'Presenter'
     },
     {
-      'name': 'PhD. Tam Vu',
+      'name': 'PhD. Vũ Tâm',
       'image': 'earable.png',
       'description': 'Earable’s Founder & CEO',
-      'bio': 'Tam Vu is a professor of Computer Science at University of Oxford, UK and University of Colorado, USA. He leads the Mobile and Networked Systems(MNS) Lab where he and his team conduct system research in the areas of wearable and mobile systems, exploring the physiological signals of a user and use them for inventing new human-computer interaction techniques and health-care solutions. The outcomes of his works resulted in a NSF CAREER award (National Science Foundation\'s most\ prestigious awards in support of early-career faculty who have the potential to serve as academic role), two Google Faculty Awards, ten best paper awards, best paper nomination, and research highlights in flagship venues in mobile system research, and received wide press coverage including NY Times, The Wall Street Journal, MIT Tech Review. \n\n He is passionate about transforming healthcare through mobile and wearable technologies. His mission and that of the organizations that he leads is to\ enhance human\'s cognitive functions and their quality of life. He is actively pushing his research outcomes to practice through technology transfer activities with 22 patents filed and attracted external investment for two venture-backed startups (Earable Inc. and Now Vitals Inc) that he co-founded to commercialize them.',
+      'bio': 'Tam Vu is a professor of Computer Science at University of Oxford, UK and University of Colorado, USA. He leads the Mobile and Networked Systems(MNS) Lab where he and his team conduct system research in the areas of wearable and mobile systems, exploring the physiological signals of a user and use them for inventing new human-computer interaction techniques and health-care solutions. The outcomes of his works resulted in a NSF CAREER award (National Science Foundation\'s most\ prestigious awards in support of early-career faculty who have the potential to serve as academic role), two Google Faculty Awards, ten best paper awards, best paper nomination, and research highlights in flagship venues in mobile system research, and received wide press coverage including NY Times, The Wall Street Journal, MIT Tech Review. \n\n He is passionate about transforming healthcare through mobile and wearable technologies. His mission and that of the organizations that he leads is to enhance human\'s cognitive functions and their quality of life. He is actively pushing his research outcomes to practice through technology transfer activities with 22 patents filed and attracted external investment for two venture-backed startups (Earable Inc. and Now Vitals Inc) that he co-founded to commercialize them.',
       'role': 'Presenter'
     }
   ],
@@ -97,16 +98,15 @@ AI impacts and challenges in infusing AI to radiology diagnostics',
             {
               'startTime': '09:00',
               'endTime': '**09:20**',
-              'speakerName': 'Dr. Ngô Văn Đoan - Head of Imaging Department',
+              'speakerName': 'Dr. Ngô Văn Đoan - VinMec Head of Imaging Dept.',
               'topic': 'Summarizing and evaluating the implementation of labeling Chest X-ray images at Vinmec'
             },
             {
               'startTime': '09:20',
               'endTime': '**09:45**',
               'speakerName': 'VinBrain - CEO Trương Quốc Hùng \n\n \
-National Lung Hospital - Assoc. Nguyễn Viết Nhung \n\n \
-VinMec Healthcare System - Professor. Đỗ Tất Cường \n\n \
-Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
+National Lung Hospital Director - Assoc. Prof. Dr. Nguyễn Viết Nhung \n\n \
+VinMec Healthcare System - Professor. Dr. Đỗ Tất Cường',
               'topic': 'MOU Signing Ceremony'
             },
 
@@ -129,28 +129,28 @@ Hanoi Medical University Hospital - DCEO - Nguyễn Thanh Bình',
         {
           'startTime': '10:00',
           'endTime': '**10:15**',
-          'speakerName': 'Assoc. Nguyễn Viết Nhung - National Lung Hospital Director',
+          'speakerName': 'Assoc. Prof. Dr. Nguyễn Viết Nhung - National Lung Hospital Director',
           'topic': 'Healthcare in Vietnam: opportunities and requirements',
           'moreInfo': ''
         },
         {
           'startTime': '10:15',
           'endTime': '**10:30**',
-          'speakerName': 'PhD. Vũ Ngọc Tâm - Earable',
+          'speakerName': 'PhD. Vũ Tâm - Earable CEO',
           'topic': 'Novel AI-enabled Wearable and Mobile Systems for Telehealth',
           'moreInfo': ''
         },
         {
           'startTime': '10:30',
           'endTime': '**10:45**',
-          'speakerName': 'Mr. Luân Võ - Enterprise Digital Solution Manager, GE',
+          'speakerName': 'Mr. Võ Luân - GE Healthcare Enterprise Digital Solution Manager',
           'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': ''
         },
         {
           'startTime': '10:45',
           'endTime': '**12:00**',
-          'speakerName': 'Assoc Nguyễn Viết Nhung, CEO Trương Quốc Hùng, PhD. Tâm Vũ Earable, Mr. Luân Võ GE\n\nModerator: Ms. Trương Lý Hoàng Phi',
+          'speakerName': 'Nguyễn Viết Nhung, Trương Quốc Hùng, Vũ Tâm, Võ Luân\n\nModerator: Ms. Trương Lý Hoàng Phi, Vintech City CEO',
           'topic': 'Panel discussion: AI, IoT and devices for Medicine'
         },
         {

@@ -4,7 +4,6 @@ import {
  Text,
  Image,
  Layer,
- Button,
  Markdown,
  Heading
 } from 'grommet';

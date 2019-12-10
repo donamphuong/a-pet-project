@@ -3,10 +3,8 @@ import {
  Box,
  Markdown,
  Text,
- Grid,
  Collapsible,
  Button,
- Heading
 } from 'grommet';
 import './../css/index.css'
 import { StatusInfo } from 'grommet-icons';

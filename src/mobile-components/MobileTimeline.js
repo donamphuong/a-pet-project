@@ -2,9 +2,7 @@ import React from 'react';
 import {
  Box,
  Markdown,
- InfiniteScroll,
  Heading,
- Text
 } from 'grommet';
 import MobileTimelineSession from './MobileTimelineSession.js'
 import t from './../information.js'

@@ -3,7 +3,6 @@ import {
  Box,
  Grid,
  Text,
- Heading,
  Markdown,
  Image
 } from 'grommet';
@@ -44,7 +43,7 @@ class Intro extends React.Component {
 
 
         <Box align="end" margin={{bottom: 'small'}} gridArea="speakers" justify="end" gap="medium" animation="slideRight">
-          <Box>
+          <Box width="100%" align="center">
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center">{t.event.date}</Text>
             <br/>
             <Text weight="bold" size="2vh" color="#130f40" textAlign="center"><Markdown>{t.event.location}</Markdown></Text>
