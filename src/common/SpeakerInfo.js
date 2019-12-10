@@ -22,6 +22,8 @@ class SpeakerInfo extends React.Component {
   render() {
     return (
       <Box>
+        <Text size="small" color="#130f40" textAlign="center" weight="bold">{this.props.speaker.role}</Text>
+
         <ZoomOnHover
           onClick={() => this.setShow(true)}
           pose={this.state.hovering ? "hovered" : "idle"}

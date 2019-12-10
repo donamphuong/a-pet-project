@@ -75,8 +75,7 @@ class WebApp extends React.Component {
                   <Box pad="large"
                     background={{
                       image: "url(sky.png)"
-                    }}
-                    overflow="scroll">
+                    }}>
                     <Text color="light-3" size="large" textAlign="center"><Markdown>{t.event.description}</Markdown></Text>
                     <br/>
                     <Button primary label="close" onClick={() => this.hide()} color='white'/>

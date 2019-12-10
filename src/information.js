@@ -11,40 +11,45 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
 
  'partners': [
    "vinbrain-logo",
-   
+
  ],
 
   'speakers': [
      {
-      'name': 'Assoc. Nguyễn Viết Nhung',
+      'name': 'Assoc. Prof. Dr. Nguyễn Viết Nhung',
       'image': 'lung-hospital.jpg',
       'description': 'National Lung Hospital Director',
-      'bio': ''
-    },
-    {
-      'name': 'Dr. Tam Vu',
-      'image': 'earable.png',
-      'description': 'Earable’s Founder & CEO',
-      'bio': ''
-    },
-    {
-      'name': 'Ms. Trương Lý Hoàng Phi',
-      'image': 'vincity.jpg',
-      'description': 'Vintech City CEO',
-      'bio': ''
-    },
-    {
-      'name': 'Mr. Luân Võ',
-      'image': 'ge.jpg',
-      'description': 'Enterprise Digital Solution Manager - GE',
-      'bio': ''
+      'bio': '',
+      'role': 'Presenter'
     },
     {
       'name': 'Mr. Trương Quốc Hùng',
       'image': 'ceo.jpg',
       'description': 'Vinbrain CEO',
-      'bio': ''
+      'bio': '',
+      'role': 'Presenter'
     },
+    {
+      'name': 'Ms. Trương Lý Hoàng Phi',
+      'image': 'vincity.jpg',
+      'description': 'Vintech City CEO',
+      'bio': '',
+      'role': 'Moderator'
+    },
+    {
+      'name': 'Mr. Luân Võ',
+      'image': 'ge.jpg',
+      'description': 'GE Healthcare Enterprise Digital Solution Manager',
+      'bio': '',
+      'role': 'Presenter'
+    },
+    {
+      'name': 'PhD. Tam Vu',
+      'image': 'earable.png',
+      'description': 'Earable’s Founder & CEO',
+      'bio': '',
+      'role': 'Presenter'
+    }
   ],
 
   'schedulesHeader': '**Agenda** \n\n **In Progress**',
@@ -69,8 +74,8 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'startTime': '08:30',
               'endTime': '**09:00**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
-              'topic': 'Opening Speech & Introduction  \n\n \
-              AI impacts and challenges in infusing AI to radiology diagnostics', 
+              'topic': 'Opening Speech & Introduction \n\n \
+AI impacts and challenges in infusing AI to radiology diagnostics',
               'moreInfo': ''
             },
             {
