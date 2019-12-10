@@ -6,7 +6,7 @@ const t = {
    },
    'description': 'Made in Vietnam”, a word-class high-tech AI for medicine product to improve life is a unique journey that most Vietnamese people dream of. With Vingroup’s strong support, VinBrain AI Doctor Assistant will soon be released to all hospitals for free in Vietnam in 2020. This is the journey where VinBrain also needs YOUR \
 collaboration and support. Today, 12/12/2019 is the day to kick-off this journey – Let’s work together to make a real difference!',
-   'location': ' 7th Floor, Vinmec Clinical Building, Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội City. '
+   'location': ' 7th Floor, Vinmec Clinical Building, Times City, 458 Minh Khai, Hai Ba Trung, Ha Noi City. '
  },
 
  'partners': [
@@ -18,7 +18,7 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
      {
       'name': 'Assoc. Nguyễn Viết Nhung',
       'image': 'lung-hospital.jpg',
-      'description': 'National Lung Hospital',
+      'description': 'National Lung Hospital Director',
       'bio': ''
     },
     {
@@ -69,8 +69,8 @@ collaboration and support. Today, 12/12/2019 is the day to kick-off this journey
               'startTime': '08:30',
               'endTime': '**09:00**',
               'speakerName': 'Trương Quốc Hùng, Vinbrain CEO',
-              'topic': 'Opening Speech & Introduction' \n\n \
-              "AI impacts and challenges in infusing AI to radiology diagnostics”
+              'topic': 'Opening Speech & Introduction  \n\n \
+              AI impacts and challenges in infusing AI to radiology diagnostics'
               'moreInfo': ''
             },
             {
