@@ -31,11 +31,11 @@ class MobileIntro extends React.Component {
         }
       </Box>
         <Box gridArea="event" justify="center">
-            <Text color="#f9ca24" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
+            <Text color="#130f40" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
               <br/>
             </Text>
-            <Text color="#f9ca24" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
+            <Text color="#130f40" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
                 &
                 <br/>
                 {t.event.name.second}

@@ -33,8 +33,8 @@ class SpeakerInfo extends React.Component {
 
               <Image src={this.props.speaker.image}/>
           </ZoomOnHover>
-        <Text size="small" color="white">{this.props.speaker.name}</Text>
-        <Text size="xsmall" color="white">{this.props.speaker.description}</Text>
+        <Text size="small" color="#130f40">{this.props.speaker.name}</Text>
+        <Text size="xsmall" color="#130f40">{this.props.speaker.description}</Text>
 
         {this.state.show && (
           <Layer
