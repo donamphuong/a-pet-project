@@ -61,7 +61,7 @@ His specialties include engineering and business operations leadership; strategy
       'role': 'Presenter'
     },
     {
-      'name': 'PhD. Vũ Tâm',
+      'name': 'PhD. Vũ Ngọc Tâm',
       'image': 'earable.png',
       'description': 'Earable’s Founder & CEO',
       'bio': 'Tam Vu is a professor of Computer Science at University of Oxford, UK and University of Colorado, USA. He leads the Mobile and Networked Systems(MNS) Lab where he and his team conduct system research in the areas of wearable and mobile systems, exploring the physiological signals of a user and use them for inventing new human-computer interaction techniques and health-care solutions. The outcomes of his works resulted in a NSF CAREER award (National Science Foundation\'s most\ prestigious awards in support of early-career faculty who have the potential to serve as academic role), two Google Faculty Awards, ten best paper awards, best paper nomination, and research highlights in flagship venues in mobile system research, and received wide press coverage including NY Times, The Wall Street Journal, MIT Tech Review. \n\n He is passionate about transforming healthcare through mobile and wearable technologies. His mission and that of the organizations that he leads is to enhance human\'s cognitive functions and their quality of life. He is actively pushing his research outcomes to practice through technology transfer activities with 22 patents filed and attracted external investment for two venture-backed startups (Earable Inc. and Now Vitals Inc) that he co-founded to commercialize them.',
@@ -136,21 +136,21 @@ VinMec Healthcare System - Professor. Dr. Đỗ Tất Cường',
         {
           'startTime': '10:15',
           'endTime': '**10:30**',
-          'speakerName': 'PhD. Vũ Tâm - Earable CEO',
+          'speakerName': 'PhD. Vũ Ngọc Tâm - Earable CEO',
           'topic': '"AI Meets Wearable: The Future of Telehealth"',
           'moreInfo': ''
         },
         {
           'startTime': '10:30',
           'endTime': '**10:45**',
-          'speakerName': 'Mr. Võ Luân - GE Healthcare Enterprise Digital Solution Manager',
+          'speakerName': 'Mr. Võ Thành Luân - GE Healthcare Enterprise Digital Solution Manager',
           'topic': 'Edison AI ecosystem of GE Healthcare',
           'moreInfo': ''
         },
         {
           'startTime': '10:45',
           'endTime': '**12:00**',
-          'speakerName': 'Nguyễn Viết Nhung, Trương Quốc Hùng, Vũ Tâm, Võ Luân\n\nModerator: Ms. Trương Lý Hoàng Phi, Vintech City CEO',
+          'speakerName': 'Nguyễn Viết Nhung, Trương Quốc Hùng, Vũ Ngọc Tâm, Võ Thành Luân\n\nModerator: Ms. Trương Lý Hoàng Phi, Vintech City CEO',
           'topic': 'Panel discussion: AI, IoT and devices for Medicine'
         },
         {
