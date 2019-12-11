@@ -137,7 +137,7 @@ VinMec Healthcare System - Professor. Dr. Đỗ Tất Cường',
           'startTime': '10:15',
           'endTime': '**10:30**',
           'speakerName': 'PhD. Vũ Tâm - Earable CEO',
-          'topic': 'Novel AI-enabled Wearable and Mobile Systems for Telehealth',
+          'topic': '"AI Meets Wearable: The Future of Telehealth"',
           'moreInfo': ''
         },
         {
