@@ -34,7 +34,7 @@ const theme = {
     font: {
       // 'family': 'Abril Fatface'
     }
-  }
+  },
 };
 
 class MobileApp extends React.Component {
