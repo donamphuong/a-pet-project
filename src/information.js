@@ -49,7 +49,7 @@ His specialties include engineering and business operations leadership; strategy
       'role': 'Moderator'
     },
     {
-      'name': 'Mr. Võ Luân',
+      'name': 'Mr. Võ Thành Luân',
       'image': 'ge.jpg',
       'description': 'GE Healthcare Enterprise Digital Solution Manager',
       'bio': '\n\n \n\n Luan Vo was born in Ho Chi Minh in 1982. He received his M.D. in Pham Ngoc Thach Medical University in 2006. From 2007 he worked at People’s hospital 115, one of the largest hospital \
