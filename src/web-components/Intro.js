@@ -9,6 +9,7 @@ import {
 import SpeakerInfo from './../common/SpeakerInfo.js'
 import t from './../information.js'
 import styled from "styled-components";
+import FitText from '@kennethormandy/react-fittext'
 
 class Intro extends React.Component {
   getImageName(imageName) {
@@ -25,7 +26,7 @@ class Intro extends React.Component {
     return (
       <Grid
         fill
-        rows={["small", "flex", "auto"]}
+        rows={["small", "auto", "flex"]}
         areas={[["logos"], ["event"], ["speakers"]]}
         overflow="auto"
       >
@@ -39,7 +40,6 @@ class Intro extends React.Component {
         <Box gridArea="event" justify="center" animation="slideRight">
             <Text color="#130f40" weight="bold" textAlign="center" size="6.5vh" style={{overflowWrap: 'break-word'}}>
                 <Markdown>{t.event.name.first}</Markdown>
-              <br/>
             </Text>
             <Text color="#130f40" textAlign="center" level={2} size="3vh" style={{textTransform: 'uppercase'}}>
                 &
