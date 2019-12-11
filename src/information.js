@@ -5,7 +5,7 @@ const t = {
      'second': 'Roundtable – AI + IoT for Medicine and ecosystem strategic partnership',
    },
    'date': '12/12/2019',
-   'description': 'Made in Vietnam”, a word-class high-tech AI for medicine product to improve life is a unique journey that most Vietnamese people dream of. With Vingroup’s strong support, VinBrain AI Doctor Assistant will soon be released to all hospitals for free in Vietnam in 2020. This is the journey where VinBrain also needs YOUR \
+   'description': 'Made in Vietnam”, a world-class high-tech AI for medicine product to improve life is a unique journey that most Vietnamese people dream of. With Vingroup’s strong support, VinBrain AI Doctor Assistant will soon be released to all hospitals for free in Vietnam in 2020. This is the journey where VinBrain also needs YOUR \
 collaboration and support. Today, 12/12/2019 is the day to kick-off this journey – Let’s work together to make a real difference!',
    'location': ' 7th Floor, Vinmec Clinical Building\n\n\
    Times City, 458 Minh Khai, Hai Ba Trung, Ha Noi'
